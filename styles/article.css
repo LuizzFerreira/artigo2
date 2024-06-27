@@ -1,0 +1,218 @@
+.card{
+    color: #1E8708;
+    font-family: font1;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.primaryArticle{
+    margin-top: 18px;
+    margin-left: 8%;
+    width: 100%;
+}
+.primaryArticle > h1{
+    font-family: font1;
+    font-size: 44px;
+    color: #101010;
+    margin-top: 16px;
+    line-height: 52px;
+}
+.primaryArticle > h2{
+    font-family: font2;
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.metadata{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-bottom: 2px solid #DDDDDD;
+    padding-bottom: 24px;
+}
+.btnPlay{
+    display: flex;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 150px;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0px 5px 15px #0000001A;
+    width: 186px;
+    margin: auto;
+    color: #151515;
+    font-family: font1;
+    text-decoration: none;
+    font-size: 16px;
+    justify-content: center;
+}
+.icons2{
+    display: none;
+}
+.play{
+    background-color: #139933;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    height: 38px;
+    width: 38px;
+    display: inline-flex;
+    justify-content: center;
+}
+.block1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.block1 > img{
+   width: 85%;
+   margin-top: 24px;
+   object-fit: cover;
+}
+.block2{
+    margin-top: 34px;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+.block3{
+    display: none;
+}
+.primary{
+    margin-top: 24px;
+}
+.primary > img {
+    width: 100%;
+    height: 566px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.guide{
+    color: #101010;
+    font-size: 14px;
+}
+.text{
+    margin-top: 34px;
+    font-size: 22px;
+    word-spacing: 1px;
+    color: #2E2E2E;
+    line-height: 32px;
+    letter-spacing: 0.13px;
+}
+.text1{
+    margin-top: 12px;
+    font-size: 22px;
+    word-spacing: 1px;
+    color: #2E2E2E;
+}
+.blueLink{
+    color: #0A73CD;
+}
+.greenBox{
+    background-color: #1E8708;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 34px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 5px 15px #0000001A;
+}
+.greenBox > blockquote{
+    color: #FFFFFF;
+    font-size: 28px;
+    text-align: center;
+    font-family: font1;
+    width: 80%;
+    margin: auto;
+    line-height: 32px;
+}
+.greenBox > cite{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-style: normal;
+}
+.figure1{
+    display: block;
+    position: absolute;
+    margin-left: 20px;
+}
+.figure2{
+    position: absolute;
+    margin-left: 80px;
+}
+.greenBox2{
+    background-color: #1E8708;
+    margin: auto;
+    display: flex;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 44px;
+    box-shadow: 0px 5px 15px #0000001A;
+    padding: 20px;
+    font-family: font1;
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 32px;
+}
+.title3{
+    color: #2E2E2E;
+    font-family: font1;
+    font-size: 26px;
+    margin-top: 34px;
+}
+.youtube{
+    width: 100%;
+    height: 486px;
+    border-radius: 10px;
+    margin-top: 34px;
+    border: 0;
+    object-fit: cover;
+}
+.questionContainer{
+    width: 480px;
+    margin: auto;
+    box-shadow: 0px 5px 15px #0000001A;
+    border-radius: 10px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+.questionContainerChild{
+    padding: 22px;
+}
+.questionContainerChild > span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.questionContainerChild > span > label {
+    font-size: 16px;
+    line-height: 30px;
+    color: #101010;
+}
+.questionContainerChild > p:nth-child(1){
+    color: #139933;
+    font-size: 24px;
+    font-family: font1;
+    width: 312px;
+    margin-bottom: 18px;
+}
+.option{
+    margin-top: 14px;
+}
+.questionContainerChild > button{
+    background-color: #1E8708;
+    margin-top: 22px;
+    width: 100%;
+    border: none;
+    color: #FFFFFF;
+    font-family: font1;
+    padding: 10px 22px 9px;
+    text-align: left;
+    border-radius: 8px;
+    width: 436px;
+    height: 42px;
+    cursor: pointer;
+    line-height: 25px;
+}
+.block4{
+    display: none;
+}

@@ -1,0 +1,74 @@
+footer{
+    background-color: #040406;
+    color: #FFFFFF;
+    height: 486px;
+    margin-top: 50px;
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    padding-top: 36px;
+}
+.firstFooter{
+    display: flex;
+    gap: 103px;
+}
+.firstFooter > ul{
+    list-style-type: none;
+}
+.firstFooter > ul > li {
+    margin-top: 10px;
+}
+.firstFooter > ul > li > p{
+    font-family: font1;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.firstFooter > ul > li > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.baseboard{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.iconsFooter{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.iconsFooter a{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-flex;
+}
+.facebookFooter{
+    padding: 10px 14px;
+}
+.instagramFooter{
+    padding: 8px;
+}
+.twitterFooter{
+    padding: 11px 9px 10px 10px;
+}
+.youtubeFooter{
+    padding: 11px 7px;
+}
+.iconAjor{
+    margin-top: 31px;
+}
+.developed{
+    width: 133.14px;
+    margin-top: 79.43px;
+}
+.developed > img:nth-child(2){
+    margin-top: 16.18px;
+}
+.firstFooter1{
+    display: none;
+}

@@ -1,0 +1,204 @@
+.contentStyle{
+    display: flex;
+    gap: 36px;
+    width: 93%;
+}
+.icons{
+    position: absolute;
+    margin-top: 18px;
+    left: 2.5%;
+    display: grid;
+}
+.icons > a:nth-child(2),.icons > a:nth-child(3),.icons > a:nth-child(4){
+    margin-top: 12px;
+}
+.icons > a{
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+.marketing{
+    margin-top: 30px;
+    width: 300px;
+    height: 1814px;
+}
+.link{
+    text-decoration: none;
+    color: #2E2E2E;
+    font-size: 16px;
+}
+.marketing > img:nth-child(1){
+    margin-top: 10px;
+    width: 100%;
+    height: 250px;
+}
+.marketing > img:nth-child(2){
+    width: 100%;
+    height: 600px;
+    margin-top: 34px;
+}
+.marketing > .news > h4{
+    font-size: 32px;
+    color: #2E2E2E;
+}
+.marketing > .news > a > article{
+    margin-top: 20px;
+}
+.marketing > .news > a > article{
+    display: flex;
+    gap: 16px;
+}
+.marketing > .news > a > article > p{
+    font-size: 16px;
+    width: 178px;
+    line-height: 20px;
+}
+.marketing > .news > a > article > img{
+    width: 106px;
+    height: 101px;
+}
+.news > h4{
+    margin-top: 34px;
+    color: #101010;
+    font-size: 24px;
+    font-family: font1;
+}
+.contentTag{
+    width: 85%;
+    margin: auto;
+    margin-top: 37px;
+}
+.contentTag > div{
+    margin-top: 16px;
+    display: flex;
+    gap: 12px;
+}
+.contentTag > div > button{
+    padding: 4px 12px;
+    border: none;
+    border-radius: 17px;
+    background-color: #E9E9E9;
+    color: #101010;
+    font-size: 14px;
+    cursor: pointer;
+}
+.rectangleGradient{
+    background-image: linear-gradient(to right, #268F94,#335F95,#7F498D);
+    width: 436px;
+    height: 133px;
+    border-radius: 12px;
+    margin-top: 38px;
+}
+.rectangleGradient > article{
+    font-size: 24px;
+    color: #FFFFFF;
+    width: 380px;
+    margin: auto;
+    padding-top: 10px;
+    line-height: 28px;
+    letter-spacing: 0.58px;
+}
+.rectangleGradient > article > span{
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: font1;
+}
+.iconGoogle{
+    position: absolute;
+    margin-left: 389px;
+    margin-top: 93px;
+    width: 67.75px;
+    height: 58.18px;
+}
+/*Navegação entre os artigos*/
+.articleNavigation{
+    display: flex;
+    justify-content: space-between;
+    width: 864px;
+}
+.articleNavigation > a {
+    text-decoration: none;
+}
+.articleNavigation > a > article{
+    width: 420px;
+    height: 105px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 1px 2px 7px #ACACAC;
+    margin-top: 52px;
+}
+.articleNavigation > a > article > p:nth-child(1){
+    color: #4F4F4F;
+    font-size: 14px;
+    margin: 12px 20px;
+}
+.articleNavigation > a > article > p:nth-child(2) {
+    color: #2E2E2E;
+    font-size: 18px;
+    width: 356px;
+    margin-top: 12px;
+    margin-left: 20px;
+    line-height: 24px;
+}
+.articleNavigation > a:nth-child(1) article > p:nth-child(2){
+    margin-left: 44px;
+}
+.articleNavigation > a:nth-child(1) > article{
+    text-align: right;
+}
+.articleNavigation > a:nth-child(1) article > p > span {
+    margin-right: 20px;
+}
+.articleNavigation > a:nth-child(2)> article > p > span {
+    margin-left: 116px;
+    font-size: 18px;
+}
+.articleNavigation > a:nth-child(2) > article{
+    text-align: left;
+}
+/*Navegação entre os artigos*/
+.blockArticles{
+    width: 85%;
+    margin: auto;
+    margin-top: 40px;
+}
+.blockArticles > div{
+    display: flex;
+    gap: 21px;
+    margin-top: 24px;
+}
+.blockArticles > div > article{
+    width: 274px;
+}
+.blockArticles > div > article > a{
+    text-decoration: none;
+}
+.green{
+    color: #1E8708;
+    font-size: 18px;
+    font-family: font1;
+    margin-top: 16px;
+}
+.content{
+    color: #101010;
+    font-size: 20px;
+    margin-top: 8px;
+    line-height: 28px;
+}
+h5{
+    color: #101010;
+    font-size: 24px;
+    font-family: font1;
+}
+h5 > span{
+    color: #139933;
+    font-size: 24px;
+    font-family: font1;
+}
+.lastNews{
+    display: none;
+}
+.lastNews > a > article > img {
+    width: 130px;
+    height: 130;
+}

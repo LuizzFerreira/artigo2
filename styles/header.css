@@ -1,0 +1,149 @@
+/*First bar*/
+.firstBar{
+    width: 86%;
+    margin: auto;
+    padding: 18px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    display: flex;
+}   
+.btn > button {
+    display: flex;
+    background: none;
+    border: none;
+}
+.buttonHamburger, .buttonHamburger2{
+    background-color: #000000;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+}
+.menuHbr{
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+}
+.buttonHamburger2{ /*Esse botão só deve aparecer quando mobile*/
+    display: none;
+}
+.search{ /*Barra de pesquisa*/
+    position: relative;
+    display: inline-block;
+}
+.search > input{
+    padding: 10px 41px 9px 22px;
+    border-radius: 22px;
+    border: none;
+    font-size: 16px;
+    background-color: #E9E9E9;
+}
+.search input::placeholder{
+    color: #2E2E2E;
+}
+.search > button{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px 12px 0px;
+    left: 85%;
+}
+/*Second bar*/
+.navBar{
+    width: 90%;
+    margin: auto;
+}
+.navBar > ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 13px;
+    overflow-x: scroll;
+}
+.navBar >::-webkit-scrollbar{
+    display: none;
+}
+.navBar > ul > li{
+    white-space: nowrap;
+}
+.navBar > ul > li > a:not(.color1){ /*Todos os itens do navBar, menos o primeiro, pois tem especificações diferentes*/
+    text-decoration: none;
+    color: #2E2E2E;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 90px;
+    transition: 0.3s ease;
+}
+.color1{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 90px;
+}
+.navBar > ul > li > a:hover{
+    color: #FFFFFF;
+}
+/*Cores do navBar*/
+.color1{background-color: #1D8108;color: #FFFFFF;}
+.color2:hover{background-color: #1D4D58;}
+.color3:hover{background-color: #AD0202;}
+.color4:hover{background-color: #6E3404;}
+.color5:hover{background-color: #047885;}
+.color6:hover{background-color: #2A6F48;}
+.color7:hover{background-color: #9B28B8;}
+.color8:hover{background-color: #513373;}
+.color9:hover{background-color: #9B28B8;}
+.color10:hover{background-color: #BD5B07;}
+.color11:hover{background-color: #193B4F;}
+.efect{
+    position: absolute;
+    background: transparent linear-gradient(90deg, #FFFFFF00 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    width: 70px;
+    height: 48px;
+    right: 0;
+}
+/*Third bar*/
+.navScroll{
+    display: flex;
+    padding: 13px;
+    margin: auto;
+    overflow-x: scroll;
+    align-items: center;
+    max-width: 1525px;
+    margin-left: 6%;
+}
+.navScroll::-webkit-scrollbar{
+    display: none;
+}
+.navScroll  article{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 305px;
+}
+.navScroll > a{
+    text-decoration: none;
+}
+.navScroll > a article > p {
+    color: #2E2E2E;
+    font-size: 16px;
+}
+.line{
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 5px 20px #00000033;
+}
+.line1{
+    border: 1px solid #DDDDDD;
+}
+.efect1{
+    position: absolute;
+    background: transparent linear-gradient(90deg, #FFFFFF00 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    width: 70px;
+    height: 107px;
+    right: 0;
+}
